@@ -164,6 +164,10 @@ footer {
   .about-smell h1 {
     font-size: 37px;
   }
+
+  .about-smell p {
+    font-size: 16px;
+  }
   .kurs h1 {
     font-size: 50px;
   }
