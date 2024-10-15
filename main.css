@@ -1,0 +1,193 @@
+.img-logo {
+  width: 70px;
+}
+
+.navbar-brand {
+  font-size: 35px;
+}
+
+.navbar-collapse a {
+  font-size: 25px;
+}
+
+p {
+  margin: 0;
+}
+.about-large {
+  background: rgb(1, 0, 36);
+  background: linear-gradient(
+    119deg,
+    rgba(1, 0, 36, 0.9032827655920822) 0%,
+    rgba(104, 9, 121, 1) 42%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.about-smell {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: bisque;
+}
+
+.about-smell img {
+  width: 600px;
+  height: 600px;
+}
+
+.about-smell h1 {
+  font-size: 70px;
+  margin-bottom: 50px;
+}
+
+.about-smell p {
+  font-size: 20px;
+}
+
+/* kurs haqida */
+
+.kurs {
+  width: 100%;
+  height: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: rgb(254, 245, 228);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+hr {
+  width: 70%;
+  margin: 100px 0;
+}
+
+.kurs h1 {
+  margin-bottom: 50px;
+  font-size: 100px;
+}
+
+.kurs i {
+  color: dimgray;
+}
+
+.kurs .card1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.kurs .teacher h2 {
+  font-size: 40px;
+}
+
+.kurs .teeacher-name {
+  margin-left: 45px;
+}
+
+.kurs .teeacher-name h3 {
+  font-size: 40px;
+  color: grey;
+}
+
+.kurs .lesson-plan h2 {
+  font-size: 40px;
+}
+
+.kurs .lesson-plan h3 + h3 {
+  margin-top: 20px;
+}
+
+.kurs .teeacher-name p {
+  color: brown;
+}
+
+.we-teach h2 {
+  font-size: 40px;
+}
+
+.we-teach .index {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.command h2 {
+  font-size: 40px;
+}
+
+.tartib h2 {
+  font-size: 40px;
+}
+
+.command h4 {
+  font-size: 30px;
+}
+
+footer {
+  padding: 0 50px;
+  background-color: black;
+  color: azure;
+  padding: 40px 0;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-right {
+  display: flex;
+  gap: 30px;
+}
+
+.footer h1 {
+  font-size: 60px;
+}
+
+.footer a {
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  gap: 15px;
+}
+
+/* mobile */
+
+@media (max-width: 450px) {
+  .about-smell img {
+    display: none;
+  }
+  .about-smell h1 {
+    font-size: 50px;
+  }
+  .kurs h1 {
+    font-size: 50px;
+  }
+  .kurs .card1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 15px;
+  }
+  .kurs h2 {
+    margin-bottom: 25px;
+  }
+
+  .teeacher-name h3 {
+    margin-top: 30px;
+  }
+
+  .footer h1 {
+    font-size: 40px;
+  }
+
+  .footer p {
+    display: none;
+  }
+}
